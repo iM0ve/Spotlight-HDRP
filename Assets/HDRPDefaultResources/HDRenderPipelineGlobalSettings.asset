@@ -138,22 +138,4 @@ MonoBehaviour:
           outOfGeoOffset: 0.01
           searchMultiplier: 0.2
       profile: {fileID: 11400000, guid: 94a8bbf16e5474c7f81c29ed2199e3b0, type: 2}
-    bakingStates:
-    - Baking State 0
-    - Baking State 1
-    - Baking State 2
-    - Baking State 3
-    - Baking State 4
-    - Baking State 5
-    - Baking State 6
-    - Baking State 7
-    - Baking State 8
-    - Baking State 9
-    - Baking State 10
-    - Baking State 11
-    - Baking State 12
-    - Baking State 13
-    - Baking State 14
-    - Baking State 15
-    m_BakingState: 0
   m_Version: 3

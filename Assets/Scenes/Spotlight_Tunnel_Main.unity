@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 62338419}
-  m_IndirectSpecularColor: {r: 0.21880496, g: 0.27980274, b: 0.38090378, a: 1}
+  m_IndirectSpecularColor: {r: 0, g: 0, b: 0, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -401,6 +401,103 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 4.8303127, y: 3.2792377, z: 0.12406993}
   m_Center: {x: 1.408968, y: 1.1396189, z: 0.07176542}
+--- !u!1 &20345637
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 20345638}
+  - component: {fileID: 20345641}
+  - component: {fileID: 20345640}
+  - component: {fileID: 20345639}
+  m_Layer: 0
+  m_Name: Cube (2)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 1
+  m_IsActive: 0
+--- !u!4 &20345638
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 20345637}
+  m_LocalRotation: {x: 0.7071068, y: 0, z: 0, w: 0.7071068}
+  m_LocalPosition: {x: -13.53, y: 11.06, z: -2.13}
+  m_LocalScale: {x: 12.14096, y: 15, z: 5.2767}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 227799025}
+  m_RootOrder: -1
+  m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
+--- !u!65 &20345639
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 20345637}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!23 &20345640
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 20345637}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 257
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 73c176f402d2c2f4d929aa5da7585d17, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 2
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!33 &20345641
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 20345637}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!1001 &23922806
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -873,7 +970,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   globalVolume: 1
-  size: {x: 105.83713, y: 18.54, z: 54.549507}
+  size: {x: 105.83713, y: 18.000004, z: 54.54951}
   geometryDistanceOffset: 0.2
   objectLayerMask:
     serializedVersion: 2
@@ -890,16 +987,16 @@ MonoBehaviour:
     e10: 0
     e11: 1
     e12: 0
-    e13: -6.2699995
+    e13: -6.0000005
     e20: 0
     e21: 0
     e22: 1
-    e23: 20.225254
+    e23: 20.225252
     e30: 0
     e31: 0
     e32: 0
     e33: 1
-  cachedHashCode: -2098830861
+  cachedHashCode: 97736571
 --- !u!4 &61805753
 Transform:
   m_ObjectHideFlags: 0
@@ -908,7 +1005,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 61805751}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -1.5814552, y: 6.2699995, z: -20.225254}
+  m_LocalPosition: {x: -1.5814552, y: 6.0000005, z: -20.225252}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1378,7 +1475,7 @@ MonoBehaviour:
     camera:
       camera: 0
   m_ProxyVolume: {fileID: 0}
-  m_BakedTexture: {fileID: 8900000, guid: b616253f3570e45b6aa2af1ec4675a44, type: 3}
+  m_BakedTexture: {fileID: 8900000, guid: 7d25f8f7d9d71496e92e60042e7b1593, type: 3}
   m_CustomTexture: {fileID: 0}
   m_BakedRenderData:
     m_WorldToCameraRHS:
@@ -1461,31 +1558,31 @@ MonoBehaviour:
   m_HasValidSHForNormalization: 0
   m_SHForNormalization:
     sh[ 0]: 0
-    sh[ 1]: 0
+    sh[ 1]: -0
     sh[ 2]: 0
-    sh[ 3]: 0
+    sh[ 3]: -0
     sh[ 4]: 0
-    sh[ 5]: 0
+    sh[ 5]: -0
     sh[ 6]: 0
-    sh[ 7]: 0
+    sh[ 7]: -0
     sh[ 8]: 0
     sh[ 9]: 0
-    sh[10]: 0
+    sh[10]: -0
     sh[11]: 0
-    sh[12]: 0
+    sh[12]: -0
     sh[13]: 0
-    sh[14]: 0
+    sh[14]: -0
     sh[15]: 0
-    sh[16]: 0
+    sh[16]: -0
     sh[17]: 0
     sh[18]: 0
-    sh[19]: 0
+    sh[19]: -0
     sh[20]: 0
-    sh[21]: 0
+    sh[21]: -0
     sh[22]: 0
-    sh[23]: 0
+    sh[23]: -0
     sh[24]: 0
-    sh[25]: 0
+    sh[25]: -0
     sh[26]: 0
   m_SHValidForCapturePosition: {x: -35.03, y: 0, z: -5.1400013}
   m_SHValidForSourcePosition: {x: -34.625652, y: 1.1, z: -5.3310585}
@@ -2083,7 +2180,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &227799025
 Transform:
   m_ObjectHideFlags: 0
@@ -2097,6 +2194,8 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 329341214}
+  - {fileID: 884204739}
+  - {fileID: 20345638}
   m_Father: {fileID: 0}
   m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -2456,7 +2555,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Profile: {fileID: 11400000, guid: ea6b0dcd78dde0747abb1d633315af54, type: 2}
-  m_StaticLightingSkyUniqueID: 1
+  m_StaticLightingSkyUniqueID: 0
   m_StaticLightingCloudsUniqueID: 0
   m_StaticLightingVolumetricClouds: 0
 --- !u!4 &429556734
@@ -2807,7 +2906,7 @@ MonoBehaviour:
     camera:
       camera: 0
   m_ProxyVolume: {fileID: 0}
-  m_BakedTexture: {fileID: 8900000, guid: f7a8ccdf661124fadbada60cb624665f, type: 3}
+  m_BakedTexture: {fileID: 8900000, guid: fbe76b851713942678073a409ef4cddc, type: 3}
   m_CustomTexture: {fileID: 0}
   m_BakedRenderData:
     m_WorldToCameraRHS:
@@ -2887,34 +2986,34 @@ MonoBehaviour:
     m_CaptureRotation: {x: 0, y: 0, z: 0, w: 0}
     m_FieldOfView: 0
     m_Aspect: 0
-  m_HasValidSHForNormalization: 0
+  m_HasValidSHForNormalization: 1
   m_SHForNormalization:
-    sh[ 0]: 0
-    sh[ 1]: 0
+    sh[ 0]: 3.4028235e+38
+    sh[ 1]: -0
     sh[ 2]: 0
-    sh[ 3]: 0
+    sh[ 3]: -0
     sh[ 4]: 0
-    sh[ 5]: 0
+    sh[ 5]: -0
     sh[ 6]: 0
-    sh[ 7]: 0
+    sh[ 7]: -0
     sh[ 8]: 0
-    sh[ 9]: 0
-    sh[10]: 0
+    sh[ 9]: 3.4028235e+38
+    sh[10]: -0
     sh[11]: 0
-    sh[12]: 0
+    sh[12]: -0
     sh[13]: 0
-    sh[14]: 0
+    sh[14]: -0
     sh[15]: 0
-    sh[16]: 0
+    sh[16]: -0
     sh[17]: 0
-    sh[18]: 0
-    sh[19]: 0
+    sh[18]: 3.4028235e+38
+    sh[19]: -0
     sh[20]: 0
-    sh[21]: 0
+    sh[21]: -0
     sh[22]: 0
-    sh[23]: 0
+    sh[23]: -0
     sh[24]: 0
-    sh[25]: 0
+    sh[25]: -0
     sh[26]: 0
   m_SHValidForCapturePosition: {x: -45.35, y: 0, z: -36.699997}
   m_SHValidForSourcePosition: {x: -44.949997, y: 4.45, z: -36.5}
@@ -3959,6 +4058,103 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1.0462128, y: 3.858229, z: 0.15875542}
   m_Center: {x: -0.16499098, y: 1.119661, z: 0.090931885}
+--- !u!1 &628265789
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 628265793}
+  - component: {fileID: 628265792}
+  - component: {fileID: 628265791}
+  - component: {fileID: 628265790}
+  m_Layer: 0
+  m_Name: Cube
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!65 &628265790
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 628265789}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!23 &628265791
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 628265789}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 257
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 73c176f402d2c2f4d929aa5da7585d17, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!33 &628265792
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 628265789}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!4 &628265793
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 628265789}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 13.729, y: 0.14817514, z: -1.939}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 10
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &639302107
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4693,7 +4889,7 @@ MonoBehaviour:
     camera:
       camera: 0
   m_ProxyVolume: {fileID: 0}
-  m_BakedTexture: {fileID: 8900000, guid: 241da99376fda43c38f921419ad2d3ab, type: 3}
+  m_BakedTexture: {fileID: 8900000, guid: 86429ad395813462ba55cac2318541cc, type: 3}
   m_CustomTexture: {fileID: 0}
   m_BakedRenderData:
     m_WorldToCameraRHS:
@@ -4773,34 +4969,34 @@ MonoBehaviour:
     m_CaptureRotation: {x: 0, y: 0, z: 0, w: 0}
     m_FieldOfView: 0
     m_Aspect: 0
-  m_HasValidSHForNormalization: 0
+  m_HasValidSHForNormalization: 1
   m_SHForNormalization:
-    sh[ 0]: 0
-    sh[ 1]: 0
+    sh[ 0]: 3.4028235e+38
+    sh[ 1]: -0
     sh[ 2]: 0
-    sh[ 3]: 0
+    sh[ 3]: -0
     sh[ 4]: 0
-    sh[ 5]: 0
+    sh[ 5]: -0
     sh[ 6]: 0
-    sh[ 7]: 0
+    sh[ 7]: -0
     sh[ 8]: 0
-    sh[ 9]: 0
-    sh[10]: 0
+    sh[ 9]: 3.4028235e+38
+    sh[10]: -0
     sh[11]: 0
-    sh[12]: 0
+    sh[12]: -0
     sh[13]: 0
-    sh[14]: 0
+    sh[14]: -0
     sh[15]: 0
-    sh[16]: 0
+    sh[16]: -0
     sh[17]: 0
-    sh[18]: 0
-    sh[19]: 0
+    sh[18]: 3.4028235e+38
+    sh[19]: -0
     sh[20]: 0
-    sh[21]: 0
+    sh[21]: -0
     sh[22]: 0
-    sh[23]: 0
+    sh[23]: -0
     sh[24]: 0
-    sh[25]: 0
+    sh[25]: -0
     sh[26]: 0
   m_SHValidForCapturePosition: {x: 31.48, y: 0, z: -3.010001}
   m_SHValidForSourcePosition: {x: 31.478447, y: 1.1, z: -3.4572108}
@@ -6818,6 +7014,11 @@ PrefabInstance:
       propertyPath: m_ReceiveGI
       value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: 23738279943274672, guid: 37c29098b8a8e624d88578e39db6c673,
+        type: 3}
+      propertyPath: m_LightProbeUsage
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 23781351439649554, guid: 37c29098b8a8e624d88578e39db6c673,
         type: 3}
       propertyPath: m_ReceiveGI
@@ -7839,7 +8040,7 @@ MonoBehaviour:
     camera:
       camera: 0
   m_ProxyVolume: {fileID: 0}
-  m_BakedTexture: {fileID: 8900000, guid: 6b9a2ed37f463495a939559e6cbf977d, type: 3}
+  m_BakedTexture: {fileID: 8900000, guid: 46a39c3ec7c43435eadd4faeccf9b57e, type: 3}
   m_CustomTexture: {fileID: 0}
   m_BakedRenderData:
     m_WorldToCameraRHS:
@@ -7919,34 +8120,34 @@ MonoBehaviour:
     m_CaptureRotation: {x: 0, y: 0, z: 0, w: 0}
     m_FieldOfView: 0
     m_Aspect: 0
-  m_HasValidSHForNormalization: 0
+  m_HasValidSHForNormalization: 1
   m_SHForNormalization:
-    sh[ 0]: 0
-    sh[ 1]: 0
+    sh[ 0]: 3.4028235e+38
+    sh[ 1]: -0
     sh[ 2]: 0
-    sh[ 3]: 0
+    sh[ 3]: -0
     sh[ 4]: 0
-    sh[ 5]: 0
+    sh[ 5]: -0
     sh[ 6]: 0
-    sh[ 7]: 0
+    sh[ 7]: -0
     sh[ 8]: 0
-    sh[ 9]: 0
-    sh[10]: 0
+    sh[ 9]: 3.4028235e+38
+    sh[10]: -0
     sh[11]: 0
-    sh[12]: 0
+    sh[12]: -0
     sh[13]: 0
-    sh[14]: 0
+    sh[14]: -0
     sh[15]: 0
-    sh[16]: 0
+    sh[16]: -0
     sh[17]: 0
-    sh[18]: 0
-    sh[19]: 0
+    sh[18]: 3.4028235e+38
+    sh[19]: -0
     sh[20]: 0
-    sh[21]: 0
+    sh[21]: -0
     sh[22]: 0
-    sh[23]: 0
+    sh[23]: -0
     sh[24]: 0
-    sh[25]: 0
+    sh[25]: -0
     sh[26]: 0
   m_SHValidForCapturePosition: {x: -23.39, y: 0, z: -0.009999983}
   m_SHValidForSourcePosition: {x: -23.151134, y: 1.1, z: -0.3880784}
@@ -8087,6 +8288,103 @@ ReflectionProbe:
   m_UseOcclusionCulling: 1
   m_Importance: 1
   m_CustomBakedTexture: {fileID: 0}
+--- !u!1 &884204738
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 884204739}
+  - component: {fileID: 884204742}
+  - component: {fileID: 884204741}
+  - component: {fileID: 884204740}
+  m_Layer: 0
+  m_Name: Cube (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 1
+  m_IsActive: 0
+--- !u!4 &884204739
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 884204738}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -13.53, y: 6.54, z: -9.67}
+  m_LocalScale: {x: 12.14096, y: 15, z: 5.2767}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 227799025}
+  m_RootOrder: -1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &884204740
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 884204738}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!23 &884204741
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 884204738}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 257
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 73c176f402d2c2f4d929aa5da7585d17, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 2
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!33 &884204742
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 884204738}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!1 &903980680 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 100000, guid: 4c32fc709b46af04a94e5c3a215621a0,
@@ -8658,7 +8956,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &995789299
 Transform:
   m_ObjectHideFlags: 0
@@ -9337,7 +9635,7 @@ MonoBehaviour:
     camera:
       camera: 0
   m_ProxyVolume: {fileID: 0}
-  m_BakedTexture: {fileID: 8900000, guid: 923e2aa9d125c4337b6f5fc432abc23a, type: 3}
+  m_BakedTexture: {fileID: 8900000, guid: 755c76c5dd5674e63b2f45f43bde059d, type: 3}
   m_CustomTexture: {fileID: 0}
   m_BakedRenderData:
     m_WorldToCameraRHS:
@@ -9417,37 +9715,37 @@ MonoBehaviour:
     m_CaptureRotation: {x: 0, y: 0, z: 0, w: 0}
     m_FieldOfView: 0
     m_Aspect: 0
-  m_HasValidSHForNormalization: 0
+  m_HasValidSHForNormalization: 1
   m_SHForNormalization:
-    sh[ 0]: 0
-    sh[ 1]: 0
+    sh[ 0]: 3.4028235e+38
+    sh[ 1]: -0
     sh[ 2]: 0
-    sh[ 3]: 0
+    sh[ 3]: -0
     sh[ 4]: 0
-    sh[ 5]: 0
+    sh[ 5]: -0
     sh[ 6]: 0
-    sh[ 7]: 0
+    sh[ 7]: -0
     sh[ 8]: 0
-    sh[ 9]: 0
-    sh[10]: 0
+    sh[ 9]: 3.4028235e+38
+    sh[10]: -0
     sh[11]: 0
-    sh[12]: 0
+    sh[12]: -0
     sh[13]: 0
-    sh[14]: 0
+    sh[14]: -0
     sh[15]: 0
-    sh[16]: 0
+    sh[16]: -0
     sh[17]: 0
-    sh[18]: 0
-    sh[19]: 0
+    sh[18]: 3.4028235e+38
+    sh[19]: -0
     sh[20]: 0
-    sh[21]: 0
+    sh[21]: -0
     sh[22]: 0
-    sh[23]: 0
+    sh[23]: -0
     sh[24]: 0
-    sh[25]: 0
+    sh[25]: -0
     sh[26]: 0
   m_SHValidForCapturePosition: {x: 43.32, y: 0, z: -16.31}
-  m_SHValidForSourcePosition: {x: 0, y: 0, z: 0}
+  m_SHValidForSourcePosition: {x: 43.097126, y: 7.14, z: -16.697721}
   m_HDProbeVersion: 3
   m_ObsoleteInfiniteProjection: 1
   m_ObsoleteInfluenceVolume:
@@ -12127,7 +12425,7 @@ MonoBehaviour:
     camera:
       camera: 0
   m_ProxyVolume: {fileID: 0}
-  m_BakedTexture: {fileID: 8900000, guid: a92a243e482ad42e6ae02a0f035934a6, type: 3}
+  m_BakedTexture: {fileID: 8900000, guid: f6f05384fdb2e48608a8dab6d5718eb9, type: 3}
   m_CustomTexture: {fileID: 0}
   m_BakedRenderData:
     m_WorldToCameraRHS:
@@ -12207,34 +12505,34 @@ MonoBehaviour:
     m_CaptureRotation: {x: 0, y: 0, z: 0, w: 0}
     m_FieldOfView: 0
     m_Aspect: 0
-  m_HasValidSHForNormalization: 0
+  m_HasValidSHForNormalization: 1
   m_SHForNormalization:
-    sh[ 0]: 0
-    sh[ 1]: 0
+    sh[ 0]: 3.4028235e+38
+    sh[ 1]: -0
     sh[ 2]: 0
-    sh[ 3]: 0
+    sh[ 3]: -0
     sh[ 4]: 0
-    sh[ 5]: 0
+    sh[ 5]: -0
     sh[ 6]: 0
-    sh[ 7]: 0
+    sh[ 7]: -0
     sh[ 8]: 0
-    sh[ 9]: 0
-    sh[10]: 0
+    sh[ 9]: 3.4028235e+38
+    sh[10]: -0
     sh[11]: 0
-    sh[12]: 0
+    sh[12]: -0
     sh[13]: 0
-    sh[14]: 0
+    sh[14]: -0
     sh[15]: 0
-    sh[16]: 0
+    sh[16]: -0
     sh[17]: 0
-    sh[18]: 0
-    sh[19]: 0
+    sh[18]: 3.4028235e+38
+    sh[19]: -0
     sh[20]: 0
-    sh[21]: 0
+    sh[21]: -0
     sh[22]: 0
-    sh[23]: 0
+    sh[23]: -0
     sh[24]: 0
-    sh[25]: 0
+    sh[25]: -0
     sh[26]: 0
   m_SHValidForCapturePosition: {x: 9.41, y: 0, z: -2.13}
   m_SHValidForSourcePosition: {x: 9.41, y: 6.17, z: -1.45}
@@ -15013,7 +15311,7 @@ MonoBehaviour:
     camera:
       camera: 0
   m_ProxyVolume: {fileID: 0}
-  m_BakedTexture: {fileID: 8900000, guid: 31dab6576a1374dd1bf309d94adde108, type: 3}
+  m_BakedTexture: {fileID: 8900000, guid: bcdae7a36b88846999f6efaeaa64bb52, type: 3}
   m_CustomTexture: {fileID: 0}
   m_BakedRenderData:
     m_WorldToCameraRHS:
@@ -15093,35 +15391,35 @@ MonoBehaviour:
     m_CaptureRotation: {x: 0, y: 0, z: 0, w: 0}
     m_FieldOfView: 0
     m_Aspect: 0
-  m_HasValidSHForNormalization: 0
+  m_HasValidSHForNormalization: 1
   m_SHForNormalization:
-    sh[ 0]: 0
-    sh[ 1]: 0
-    sh[ 2]: 0
-    sh[ 3]: 0
-    sh[ 4]: 0
-    sh[ 5]: 0
-    sh[ 6]: 0
-    sh[ 7]: 0
-    sh[ 8]: 0
-    sh[ 9]: 0
-    sh[10]: 0
-    sh[11]: 0
-    sh[12]: 0
-    sh[13]: 0
-    sh[14]: 0
-    sh[15]: 0
-    sh[16]: 0
-    sh[17]: 0
-    sh[18]: 0
-    sh[19]: 0
-    sh[20]: 0
-    sh[21]: 0
-    sh[22]: 0
-    sh[23]: 0
-    sh[24]: 0
-    sh[25]: 0
-    sh[26]: 0
+    sh[ 0]: 0.025871398
+    sh[ 1]: 0.013308098
+    sh[ 2]: -0.0020789078
+    sh[ 3]: -0.013272042
+    sh[ 4]: -0.00432878
+    sh[ 5]: -0.0000007036959
+    sh[ 6]: -0.0006132904
+    sh[ 7]: 0.00024924564
+    sh[ 8]: -0.0010769014
+    sh[ 9]: 0.011924917
+    sh[10]: 0.0072898325
+    sh[11]: -0.0009167154
+    sh[12]: -0.006377067
+    sh[13]: -0.0022233834
+    sh[14]: 0.000063562424
+    sh[15]: -0.00035439612
+    sh[16]: 0.00010710343
+    sh[17]: -0.00052509754
+    sh[18]: 0.0029065034
+    sh[19]: 0.0021535151
+    sh[20]: -0.00026403833
+    sh[21]: -0.0016320217
+    sh[22]: -0.0006147592
+    sh[23]: 0.000049110233
+    sh[24]: -0.00010645843
+    sh[25]: 0.000027925003
+    sh[26]: -0.00013658065
   m_SHValidForCapturePosition: {x: -2.71, y: 0, z: 1.13}
   m_SHValidForSourcePosition: {x: -9.82, y: 1.57, z: 0.73}
   m_HDProbeVersion: 3
@@ -15487,7 +15785,7 @@ MonoBehaviour:
     camera:
       camera: 0
   m_ProxyVolume: {fileID: 0}
-  m_BakedTexture: {fileID: 8900000, guid: 3a44937572cae4928bee9f325f9c0244, type: 3}
+  m_BakedTexture: {fileID: 8900000, guid: 8053bd425dc0a4b29aa6640c0fca8fe2, type: 3}
   m_CustomTexture: {fileID: 0}
   m_BakedRenderData:
     m_WorldToCameraRHS:
@@ -15567,34 +15865,34 @@ MonoBehaviour:
     m_CaptureRotation: {x: 0, y: 0, z: 0, w: 0}
     m_FieldOfView: 0
     m_Aspect: 0
-  m_HasValidSHForNormalization: 0
+  m_HasValidSHForNormalization: 1
   m_SHForNormalization:
-    sh[ 0]: 0
-    sh[ 1]: 0
+    sh[ 0]: 3.4028235e+38
+    sh[ 1]: -0
     sh[ 2]: 0
-    sh[ 3]: 0
+    sh[ 3]: -0
     sh[ 4]: 0
-    sh[ 5]: 0
+    sh[ 5]: -0
     sh[ 6]: 0
-    sh[ 7]: 0
+    sh[ 7]: -0
     sh[ 8]: 0
-    sh[ 9]: 0
-    sh[10]: 0
+    sh[ 9]: 3.4028235e+38
+    sh[10]: -0
     sh[11]: 0
-    sh[12]: 0
+    sh[12]: -0
     sh[13]: 0
-    sh[14]: 0
+    sh[14]: -0
     sh[15]: 0
-    sh[16]: 0
+    sh[16]: -0
     sh[17]: 0
-    sh[18]: 0
-    sh[19]: 0
+    sh[18]: 3.4028235e+38
+    sh[19]: -0
     sh[20]: 0
-    sh[21]: 0
+    sh[21]: -0
     sh[22]: 0
-    sh[23]: 0
+    sh[23]: -0
     sh[24]: 0
-    sh[25]: 0
+    sh[25]: -0
     sh[26]: 0
   m_SHValidForCapturePosition: {x: -45.35, y: 0, z: -15.98}
   m_SHValidForSourcePosition: {x: -44.949997, y: 1.1, z: -15.78}
