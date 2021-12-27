@@ -86,7 +86,6 @@ MonoBehaviour:
   decalLayerName5: Decal Layer 5
   decalLayerName6: Decal Layer 6
   decalLayerName7: Decal Layer 7
-  shaderVariantLogLevel: 0
   lensAttenuationMode: 0
   colorGradingSpace: 0
   diffusionProfileSettingsList:
@@ -113,7 +112,7 @@ MonoBehaviour:
     - sceneGUID: daa4a941b95b69441b8f6acda1c48db8
       settings:
         dilationSettings:
-          enableDilation: 1
+          enableDilation: 0
           dilationDistance: 1
           dilationValidityThreshold: 0.25
           dilationIterations: 1
@@ -128,7 +127,7 @@ MonoBehaviour:
       - daa4a941b95b69441b8f6acda1c48db8
       settings:
         dilationSettings:
-          enableDilation: 1
+          enableDilation: 0
           dilationDistance: 1
           dilationValidityThreshold: 0.25
           dilationIterations: 1
@@ -139,3 +138,5 @@ MonoBehaviour:
           searchMultiplier: 0.2
       profile: {fileID: 11400000, guid: 94a8bbf16e5474c7f81c29ed2199e3b0, type: 2}
   m_Version: 3
+  m_ShaderVariantLogLevel: 0
+  m_ExportShaderVariants: 1
