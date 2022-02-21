@@ -395,6 +395,7 @@ MonoBehaviour:
   - {fileID: 1057194286074404910}
   - {fileID: 5370071137564828172}
   - {fileID: 6224796522992205352}
+  - {fileID: 4276926827910287422}
 --- !u!114 &114198620158080306
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -590,6 +591,40 @@ MonoBehaviour:
   m_HighQualityFiltering:
     m_OverrideState: 0
     m_Value: 1
+--- !u!114 &4276926827910287422
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6bd486065ce11414fa40e631affc4900, type: 3}
+  m_Name: ProbeVolumesOptions
+  m_EditorClassIdentifier: 
+  active: 1
+  normalBias:
+    m_OverrideState: 0
+    m_Value: 0.33
+  viewBias:
+    m_OverrideState: 0
+    m_Value: 0
+  scaleBiasWithMinProbeDistance:
+    m_OverrideState: 0
+    m_Value: 0
+  samplingNoise:
+    m_OverrideState: 0
+    m_Value: 0.125
+  animateSamplingNoise:
+    m_OverrideState: 0
+    m_Value: 1
+  leakReductionMode:
+    m_OverrideState: 1
+    m_Value: 1
+  minValidDotProductValue:
+    m_OverrideState: 0
+    m_Value: 0.1
 --- !u!114 &5370071137564828172
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -723,7 +758,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f034cba68ab55e046ae1445a42f18c0e, type: 3}
   m_Name: IndirectLightingController
   m_EditorClassIdentifier: 
-  active: 1
+  active: 0
   indirectDiffuseLightingMultiplier:
     m_OverrideState: 0
     m_Value: 1
