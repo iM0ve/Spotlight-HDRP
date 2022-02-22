@@ -167,7 +167,7 @@ MonoBehaviour:
           dilationIterations: 1
           squaredDistWeighting: 1
         virtualOffsetSettings:
-          useVirtualOffset: 1
+          useVirtualOffset: 0
           outOfGeoOffset: 0.01
           searchMultiplier: 0.2
           rayOriginBias: -0.001
@@ -198,6 +198,7 @@ MonoBehaviour:
       sceneGUIDs:
       - daa4a941b95b69441b8f6acda1c48db8
       - 0a7bc063a2089437da8b1dae9d65aca5
+      - fc09c60419d624761b5d5cde70f7ebbd
       settings:
         m_Version: 1
         dilationSettings:
