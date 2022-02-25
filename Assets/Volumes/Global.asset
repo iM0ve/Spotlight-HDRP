@@ -43,7 +43,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f034cba68ab55e046ae1445a42f18c0e, type: 3}
   m_Name: IndirectLightingController
   m_EditorClassIdentifier: 
-  active: 1
+  active: 0
   indirectDiffuseLightingMultiplier:
     m_OverrideState: 0
     m_Value: 0
@@ -51,7 +51,7 @@ MonoBehaviour:
     m_OverrideState: 0
     m_Value: 255
   reflectionLightingMultiplier:
-    m_OverrideState: 0
+    m_OverrideState: 1
     m_Value: 0
   reflectionLightingLayers:
     m_OverrideState: 0
@@ -91,25 +91,25 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   active: 1
   normalBias:
-    m_OverrideState: 0
+    m_OverrideState: 1
     m_Value: 0.33
   viewBias:
-    m_OverrideState: 0
+    m_OverrideState: 1
     m_Value: 0.19
   scaleBiasWithMinProbeDistance:
-    m_OverrideState: 0
+    m_OverrideState: 1
     m_Value: 1
   samplingNoise:
-    m_OverrideState: 0
+    m_OverrideState: 1
     m_Value: 0.125
   animateSamplingNoise:
-    m_OverrideState: 0
+    m_OverrideState: 1
     m_Value: 1
   leakReductionMode:
     m_OverrideState: 1
     m_Value: 1
   minValidDotProductValue:
-    m_OverrideState: 0
+    m_OverrideState: 1
     m_Value: 0.1
 --- !u!114 &2744217730209175204
 MonoBehaviour:
