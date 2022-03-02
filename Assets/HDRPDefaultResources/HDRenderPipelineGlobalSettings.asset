@@ -131,7 +131,7 @@ MonoBehaviour:
           dilationIterations: 1
           squaredDistWeighting: 1
         virtualOffsetSettings:
-          useVirtualOffset: 0
+          useVirtualOffset: 1
           outOfGeoOffset: 0.01
           searchMultiplier: 0.2
           rayOriginBias: -0.001
@@ -149,7 +149,7 @@ MonoBehaviour:
           dilationIterations: 1
           squaredDistWeighting: 1
         virtualOffsetSettings:
-          useVirtualOffset: 0
+          useVirtualOffset: 1
           outOfGeoOffset: 0.01
           searchMultiplier: 0.2
           rayOriginBias: -0.001
@@ -167,7 +167,7 @@ MonoBehaviour:
           dilationIterations: 1
           squaredDistWeighting: 1
         virtualOffsetSettings:
-          useVirtualOffset: 0
+          useVirtualOffset: 1
           outOfGeoOffset: 0.01
           searchMultiplier: 0.2
           rayOriginBias: -0.001
@@ -208,7 +208,7 @@ MonoBehaviour:
           dilationIterations: 1
           squaredDistWeighting: 1
         virtualOffsetSettings:
-          useVirtualOffset: 0
+          useVirtualOffset: 1
           outOfGeoOffset: 0.01
           searchMultiplier: 0.2
           rayOriginBias: -0.001
