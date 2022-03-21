@@ -108,8 +108,8 @@ MonoBehaviour:
     m_OverrideState: 0
     m_Value: 1
   leakReductionMode:
-    m_OverrideState: 1
-    m_Value: 1
+    m_OverrideState: 0
+    m_Value: 0
   minValidDotProductValue:
     m_OverrideState: 0
     m_Value: 0.1
@@ -283,8 +283,8 @@ MonoBehaviour:
     m_OverrideState: 0
     m_Value: 0
   intensity:
-    m_OverrideState: 0
-    m_Value: 0
+    m_OverrideState: 1
+    m_Value: 1
   directLightingStrength:
     m_OverrideState: 0
     m_Value: 0
