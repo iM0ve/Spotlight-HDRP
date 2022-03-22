@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 4682.7896, g: 3487.1309, b: 3758.0237, a: 1}
+  m_IndirectSpecularColor: {r: 0.14433587, g: 0.18460749, b: 0.25131288, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -98,7 +98,7 @@ LightmapSettings:
     m_ExportTrainingData: 0
     m_TrainingDataDestination: TrainingData
     m_LightProbeSampleCountMultiplier: 4
-  m_LightingDataAsset: {fileID: 112000002, guid: ba4f38f855e6e43c0a84cefc0ba89130,
+  m_LightingDataAsset: {fileID: 112000002, guid: 4f4dcbf06d88148e08af455544deae4a,
     type: 2}
   m_LightingSettings: {fileID: 0}
 --- !u!196 &4
@@ -681,9 +681,17 @@ Camera:
   m_projectionMatrixMode: 1
   m_GateFitMode: 2
   m_FOVAxisMode: 0
+  m_Iso: 200
+  m_ShutterSpeed: 0.005
+  m_Aperture: 16
+  m_FocusDistance: 10
+  m_FocalLength: 50
+  m_BladeCount: 5
+  m_Curvature: {x: 2, y: 11}
+  m_BarrelClipping: 0.25
+  m_Anamorphism: 0
   m_SensorSize: {x: 36, y: 24}
   m_LensShift: {x: 0, y: 0}
-  m_FocalLength: 50
   m_NormalizedViewPortRect:
     serializedVersion: 2
     x: 0
@@ -812,11 +820,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 1847621966968312, guid: 1bc8ad5cf13d3c74ea34ae974a5eb0b2,
-        type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 0}
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1bc8ad5cf13d3c74ea34ae974a5eb0b2, type: 3}
 --- !u!1001 &31980010
 PrefabInstance:
@@ -1639,7 +1643,7 @@ MonoBehaviour:
     camera:
       camera: 0
   m_ProxyVolume: {fileID: 0}
-  m_BakedTexture: {fileID: 8900000, guid: b20b3f7f5495a4e7bacdbdf2bd12b6ba, type: 3}
+  m_BakedTexture: {fileID: 8900000, guid: 720d47e71281b4b45b37a6cbeff636f9, type: 3}
   m_CustomTexture: {fileID: 0}
   m_BakedRenderData:
     m_WorldToCameraRHS:
@@ -1721,33 +1725,33 @@ MonoBehaviour:
     m_Aspect: 0
   m_HasValidSHForNormalization: 1
   m_SHForNormalization:
-    sh[ 0]: 10.256047
-    sh[ 1]: -0.056677487
-    sh[ 2]: -0.9843117
-    sh[ 3]: -3.5958526
-    sh[ 4]: -0.16333559
-    sh[ 5]: -0.47914574
-    sh[ 6]: -0.1756135
-    sh[ 7]: -1.5644536
-    sh[ 8]: 1.2022617
-    sh[ 9]: 7.8398767
-    sh[10]: 0.18797536
-    sh[11]: -1.3470807
-    sh[12]: -2.4429471
-    sh[13]: -0.19883046
-    sh[14]: -0.3124395
-    sh[15]: -0.1605228
-    sh[16]: -1.1337163
-    sh[17]: 0.9604224
-    sh[18]: 6.684748
-    sh[19]: 0.55850536
-    sh[20]: -2.0738153
-    sh[21]: -1.759374
-    sh[22]: -0.27512577
-    sh[23]: -0.1774907
-    sh[24]: -0.18454735
-    sh[25]: -0.8543394
-    sh[26]: 0.8985109
+    sh[ 0]: 1.2938514
+    sh[ 1]: -0.6323445
+    sh[ 2]: -0.04992746
+    sh[ 3]: 0.1415842
+    sh[ 4]: -0.0032529053
+    sh[ 5]: -0.00024223009
+    sh[ 6]: -0.009996524
+    sh[ 7]: -0.030595658
+    sh[ 8]: 0.004744249
+    sh[ 9]: 0.90954804
+    sh[10]: -0.47164094
+    sh[11]: -0.034363423
+    sh[12]: 0.093440466
+    sh[13]: -0.0018157642
+    sh[14]: 0.0027427538
+    sh[15]: -0.008210475
+    sh[16]: -0.022990087
+    sh[17]: 0.0025049353
+    sh[18]: 0.58854836
+    sh[19]: -0.33196878
+    sh[20]: -0.03058401
+    sh[21]: 0.037909124
+    sh[22]: 0.0025974636
+    sh[23]: 0.008772781
+    sh[24]: -0.007875504
+    sh[25]: -0.018292818
+    sh[26]: -0.00045543598
   m_SHValidForCapturePosition: {x: 27.012, y: 0.23, z: -0.553}
   m_SHValidForSourcePosition: {x: 27.012, y: 0.23, z: -0.553}
   m_HDProbeVersion: 3
@@ -2618,7 +2622,7 @@ MonoBehaviour:
     camera:
       camera: 0
   m_ProxyVolume: {fileID: 0}
-  m_BakedTexture: {fileID: 8900000, guid: b48b952b96556431bb397e6825a49a76, type: 3}
+  m_BakedTexture: {fileID: 8900000, guid: 2f36e402e2d8f4c428f475a48b814af2, type: 3}
   m_CustomTexture: {fileID: 0}
   m_BakedRenderData:
     m_WorldToCameraRHS:
@@ -2700,33 +2704,33 @@ MonoBehaviour:
     m_Aspect: 0
   m_HasValidSHForNormalization: 1
   m_SHForNormalization:
-    sh[ 0]: 54.083557
-    sh[ 1]: 0.06961656
-    sh[ 2]: -38.863197
-    sh[ 3]: 29.441813
-    sh[ 4]: 2.0471227
-    sh[ 5]: -3.135681
-    sh[ 6]: 2.0013382
-    sh[ 7]: -10.803469
-    sh[ 8]: 1.8437358
-    sh[ 9]: 45.84898
-    sh[10]: 0.14736088
-    sh[11]: -31.907623
-    sh[12]: 25.489647
-    sh[13]: 1.6115087
-    sh[14]: -3.0603018
-    sh[15]: 1.6911584
-    sh[16]: -8.956795
-    sh[17]: 1.5530858
-    sh[18]: 40.54804
-    sh[19]: 2.1742153
-    sh[20]: -30.89255
-    sh[21]: 22.880362
-    sh[22]: 1.9539206
-    sh[23]: -2.6728473
-    sh[24]: 1.606321
-    sh[25]: -8.690878
-    sh[26]: 1.4901686
+    sh[ 0]: 2.806592
+    sh[ 1]: -1.5803739
+    sh[ 2]: -0.039644565
+    sh[ 3]: 0.011418421
+    sh[ 4]: -0.008310772
+    sh[ 5]: 0.002533407
+    sh[ 6]: -0.013265843
+    sh[ 7]: 0.018739406
+    sh[ 8]: -0.026804762
+    sh[ 9]: 2.0408201
+    sh[10]: -1.1679616
+    sh[11]: -0.014809081
+    sh[12]: -0.0034621565
+    sh[13]: 0.0013500514
+    sh[14]: -0.00058577285
+    sh[15]: -0.008319185
+    sh[16]: 0.008237019
+    sh[17]: -0.02508179
+    sh[18]: 1.3464385
+    sh[19]: -0.7883901
+    sh[20]: -0.025743023
+    sh[21]: -0.047952287
+    sh[22]: 0.016639793
+    sh[23]: 0.017404066
+    sh[24]: -0.0077140154
+    sh[25]: -0.0066459873
+    sh[26]: -0.024702052
   m_SHValidForCapturePosition: {x: 37.23, y: 0.23, z: -5.38}
   m_SHValidForSourcePosition: {x: 37.23, y: 0.23, z: -5.38}
   m_HDProbeVersion: 3
@@ -2947,11 +2951,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 1187019102215276, guid: 37c29098b8a8e624d88578e39db6c673,
-        type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 0}
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 37c29098b8a8e624d88578e39db6c673, type: 3}
 --- !u!4 &102722257 stripped
 Transform:
@@ -3025,11 +3025,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 100000, guid: f1dac1e80cb61704eaef7345d7f7f135,
-        type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 0}
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f1dac1e80cb61704eaef7345d7f7f135, type: 3}
 --- !u!4 &108297018 stripped
 Transform:
@@ -4541,7 +4537,7 @@ MonoBehaviour:
     camera:
       camera: 0
   m_ProxyVolume: {fileID: 0}
-  m_BakedTexture: {fileID: 8900000, guid: 822f495034a0c4157ab86fe30ab0ee42, type: 3}
+  m_BakedTexture: {fileID: 8900000, guid: 26ae23d81da984cc8821f93032fc2a9c, type: 3}
   m_CustomTexture: {fileID: 0}
   m_BakedRenderData:
     m_WorldToCameraRHS:
@@ -4623,33 +4619,33 @@ MonoBehaviour:
     m_Aspect: 0
   m_HasValidSHForNormalization: 1
   m_SHForNormalization:
-    sh[ 0]: 1.7675501
-    sh[ 1]: -0.9727481
-    sh[ 2]: -0.01892709
-    sh[ 3]: 0.20798418
-    sh[ 4]: -0.08369236
-    sh[ 5]: -0.034893222
-    sh[ 6]: -0.004921609
-    sh[ 7]: 0.062208068
-    sh[ 8]: -0.025131129
-    sh[ 9]: 1.3623544
-    sh[10]: -0.70283175
-    sh[11]: -0.111296274
-    sh[12]: 0.097903036
-    sh[13]: -0.06372346
-    sh[14]: -0.02602267
-    sh[15]: 0.0026534349
-    sh[16]: 0.074775405
-    sh[17]: -0.015053922
-    sh[18]: 1.2114631
-    sh[19]: -0.4613713
-    sh[20]: -0.38845032
-    sh[21]: -0.09192237
-    sh[22]: -0.05261292
-    sh[23]: -0.01981356
-    sh[24]: 0.021348182
-    sh[25]: 0.13821961
-    sh[26]: 0.000094810704
+    sh[ 0]: 1.6692884
+    sh[ 1]: -0.9707991
+    sh[ 2]: 0.10329737
+    sh[ 3]: 0.27555385
+    sh[ 4]: -0.07792967
+    sh[ 5]: -0.029228345
+    sh[ 6]: -0.011645847
+    sh[ 7]: 0.028963093
+    sh[ 8]: -0.02567849
+    sh[ 9]: 1.1982965
+    sh[10]: -0.7064339
+    sh[11]: 0.06914055
+    sh[12]: 0.19860414
+    sh[13]: -0.05757927
+    sh[14]: -0.018843032
+    sh[15]: -0.008735948
+    sh[16]: 0.023495901
+    sh[17]: -0.019442566
+    sh[18]: 0.80686843
+    sh[19]: -0.48286527
+    sh[20]: 0.028298093
+    sh[21]: 0.14209725
+    sh[22]: -0.04270313
+    sh[23]: -0.0055384557
+    sh[24]: -0.007044149
+    sh[25]: 0.017768892
+    sh[26]: -0.015102649
   m_SHValidForCapturePosition: {x: -34.9, y: 0.447, z: -3.7}
   m_SHValidForSourcePosition: {x: -34.9, y: 0.447, z: -3.7}
   m_HDProbeVersion: 3
@@ -5260,10 +5256,6 @@ PrefabInstance:
         type: 3}
       insertIndex: -1
       addedObject: {fileID: 88158379}
-    - targetCorrespondingSourceObject: {fileID: 100000, guid: f1dac1e80cb61704eaef7345d7f7f135,
-        type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 0}
   m_SourcePrefab: {fileID: 100100000, guid: f1dac1e80cb61704eaef7345d7f7f135, type: 3}
 --- !u!4 &378805334 stripped
 Transform:
@@ -5928,7 +5920,7 @@ MonoBehaviour:
     camera:
       camera: 0
   m_ProxyVolume: {fileID: 0}
-  m_BakedTexture: {fileID: 8900000, guid: 482470ca634b041c0b7c55891ae85963, type: 3}
+  m_BakedTexture: {fileID: 8900000, guid: d4c7e895e007f4c09bc32ef33f2f3b75, type: 3}
   m_CustomTexture: {fileID: 0}
   m_BakedRenderData:
     m_WorldToCameraRHS:
@@ -6010,33 +6002,33 @@ MonoBehaviour:
     m_Aspect: 0
   m_HasValidSHForNormalization: 1
   m_SHForNormalization:
-    sh[ 0]: 480.68497
-    sh[ 1]: 215.43414
-    sh[ 2]: -330.16116
-    sh[ 3]: 82.48152
-    sh[ 4]: 16.993176
-    sh[ 5]: -46.772785
-    sh[ 6]: 13.875017
-    sh[ 7]: -34.05992
-    sh[ 8]: -12.535793
-    sh[ 9]: 456.8608
-    sh[10]: 230.49959
-    sh[11]: -296.88467
-    sh[12]: 67.54152
-    sh[13]: 12.667916
-    sh[14]: -47.161106
-    sh[15]: 10.954081
-    sh[16]: -29.427805
-    sh[17]: -15.195259
-    sh[18]: 572.45667
-    sh[19]: 340.87292
-    sh[20]: -327.68872
-    sh[21]: 52.689976
-    sh[22]: 5.8840284
-    sh[23]: -61.203674
-    sh[24]: 8.009145
-    sh[25]: -27.453278
-    sh[26]: -26.97287
+    sh[ 0]: 0.025185756
+    sh[ 1]: 0.0035263675
+    sh[ 2]: 0.013395643
+    sh[ 3]: -0.0018050335
+    sh[ 4]: -0.00020264348
+    sh[ 5]: -0.0005419304
+    sh[ 6]: 0.0011748774
+    sh[ 7]: 0.0016787327
+    sh[ 8]: -0.0002615337
+    sh[ 9]: 0.024459725
+    sh[10]: 0.006543671
+    sh[11]: 0.0076353415
+    sh[12]: -0.0034880002
+    sh[13]: -0.00044990517
+    sh[14]: -0.0007629114
+    sh[15]: 0.0006728491
+    sh[16]: 0.0013452767
+    sh[17]: -0.0005223875
+    sh[18]: 0.03079884
+    sh[19]: 0.012762723
+    sh[20]: 0.0018564557
+    sh[21]: -0.0069157723
+    sh[22]: -0.0009344708
+    sh[23]: -0.0013051698
+    sh[24]: 0.00016455534
+    sh[25]: 0.0012884297
+    sh[26]: -0.0010494167
   m_SHValidForCapturePosition: {x: -45.937954, y: 1.1487932, z: -28.840218}
   m_SHValidForSourcePosition: {x: -48.0123, y: 6.38, z: -36.500996}
   m_HDProbeVersion: 3
@@ -7459,11 +7451,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 1847621966968312, guid: 1bc8ad5cf13d3c74ea34ae974a5eb0b2,
-        type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 0}
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1bc8ad5cf13d3c74ea34ae974a5eb0b2, type: 3}
 --- !u!4 &551006519 stripped
 Transform:
@@ -7636,11 +7624,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 1847621966968312, guid: 1bc8ad5cf13d3c74ea34ae974a5eb0b2,
-        type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 0}
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1bc8ad5cf13d3c74ea34ae974a5eb0b2, type: 3}
 --- !u!4 &596483081 stripped
 Transform:
@@ -7979,9 +7963,17 @@ Camera:
   m_projectionMatrixMode: 1
   m_GateFitMode: 2
   m_FOVAxisMode: 0
+  m_Iso: 200
+  m_ShutterSpeed: 0.005
+  m_Aperture: 16
+  m_FocusDistance: 10
+  m_FocalLength: 50
+  m_BladeCount: 5
+  m_Curvature: {x: 2, y: 11}
+  m_BarrelClipping: 0.25
+  m_Anamorphism: 0
   m_SensorSize: {x: 36, y: 24}
   m_LensShift: {x: 0, y: 0}
-  m_FocalLength: 50
   m_NormalizedViewPortRect:
     serializedVersion: 2
     x: 0
@@ -8134,11 +8126,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 1847621966968312, guid: 1bc8ad5cf13d3c74ea34ae974a5eb0b2,
-        type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 0}
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1bc8ad5cf13d3c74ea34ae974a5eb0b2, type: 3}
 --- !u!4 &639302108 stripped
 Transform:
@@ -8342,19 +8330,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 1187019102215276, guid: 37c29098b8a8e624d88578e39db6c673,
-        type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 0}
-    - targetCorrespondingSourceObject: {fileID: 1146579523226982, guid: 37c29098b8a8e624d88578e39db6c673,
-        type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 0}
-    - targetCorrespondingSourceObject: {fileID: 1221116173160528, guid: 37c29098b8a8e624d88578e39db6c673,
-        type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 0}
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 37c29098b8a8e624d88578e39db6c673, type: 3}
 --- !u!4 &647620868 stripped
 Transform:
@@ -8808,15 +8784,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 1146579523226982, guid: 37c29098b8a8e624d88578e39db6c673,
-        type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 0}
-    - targetCorrespondingSourceObject: {fileID: 1221116173160528, guid: 37c29098b8a8e624d88578e39db6c673,
-        type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 0}
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 37c29098b8a8e624d88578e39db6c673, type: 3}
 --- !u!4 &668197725 stripped
 Transform:
@@ -10285,11 +10253,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 100000, guid: 91682bdc970d03c4e89080fc1640258e,
-        type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 0}
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 91682bdc970d03c4e89080fc1640258e, type: 3}
 --- !u!4 &716579497 stripped
 Transform:
@@ -10359,11 +10323,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 100000, guid: 91682bdc970d03c4e89080fc1640258e,
-        type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 0}
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 91682bdc970d03c4e89080fc1640258e, type: 3}
 --- !u!4 &717534736 stripped
 Transform:
@@ -10696,11 +10656,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 1187019102215276, guid: 37c29098b8a8e624d88578e39db6c673,
-        type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 0}
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 37c29098b8a8e624d88578e39db6c673, type: 3}
 --- !u!4 &784626314 stripped
 Transform:
@@ -11891,7 +11847,7 @@ MonoBehaviour:
     camera:
       camera: 0
   m_ProxyVolume: {fileID: 0}
-  m_BakedTexture: {fileID: 8900000, guid: 15c1b388e103144ddb5deebefcd36bd3, type: 3}
+  m_BakedTexture: {fileID: 8900000, guid: 802a3e76017f74e11a22f13bcb3f8c5e, type: 3}
   m_CustomTexture: {fileID: 0}
   m_BakedRenderData:
     m_WorldToCameraRHS:
@@ -11973,33 +11929,33 @@ MonoBehaviour:
     m_Aspect: 0
   m_HasValidSHForNormalization: 1
   m_SHForNormalization:
-    sh[ 0]: 20.536768
-    sh[ 1]: -1.0211099
-    sh[ 2]: -4.0719986
-    sh[ 3]: 19.757599
-    sh[ 4]: -0.37035292
-    sh[ 5]: -0.022735
-    sh[ 6]: -0.5305908
-    sh[ 7]: -2.426247
-    sh[ 8]: 2.450215
-    sh[ 9]: 15.320561
-    sh[10]: -0.6039317
-    sh[11]: -2.7921736
-    sh[12]: 15.006975
-    sh[13]: -0.18875596
-    sh[14]: -0.04194755
-    sh[15]: -0.4101287
-    sh[16]: -1.6964928
-    sh[17]: 1.8782281
-    sh[18]: 12.779938
-    sh[19]: -0.35884616
-    sh[20]: -2.1155546
-    sh[21]: 12.834826
-    sh[22]: -0.07631781
-    sh[23]: -0.0638718
-    sh[24]: -0.36210623
-    sh[25]: -1.3314586
-    sh[26]: 1.6273633
+    sh[ 0]: 1.6059752
+    sh[ 1]: -0.5209023
+    sh[ 2]: 0.12289617
+    sh[ 3]: 0.14296916
+    sh[ 4]: -0.25683773
+    sh[ 5]: -0.28062132
+    sh[ 6]: -0.062409714
+    sh[ 7]: -0.014584847
+    sh[ 8]: -0.22536878
+    sh[ 9]: 0.9932502
+    sh[10]: -0.38011926
+    sh[11]: 0.05758678
+    sh[12]: 0.1205389
+    sh[13]: -0.15658805
+    sh[14]: -0.13142098
+    sh[15]: -0.025087617
+    sh[16]: 0.0116051
+    sh[17]: -0.10643364
+    sh[18]: 0.6026058
+    sh[19]: -0.3100237
+    sh[20]: 0.08112546
+    sh[21]: 0.108050846
+    sh[22]: -0.085871585
+    sh[23]: -0.08992232
+    sh[24]: 0.012885067
+    sh[25]: 0.030995237
+    sh[26]: -0.019895397
   m_SHValidForCapturePosition: {x: -7.96, y: 1.653, z: 1.817}
   m_SHValidForSourcePosition: {x: -7.96, y: 1.653, z: 1.817}
   m_HDProbeVersion: 3
@@ -12251,10 +12207,6 @@ PrefabInstance:
         type: 3}
       insertIndex: -1
       addedObject: {fileID: 872953950}
-    - targetCorrespondingSourceObject: {fileID: 1438889385534876, guid: 310ed96d2789da0479ad5c6922bef56c,
-        type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 0}
   m_SourcePrefab: {fileID: 100100000, guid: 310ed96d2789da0479ad5c6922bef56c, type: 3}
 --- !u!1 &872953948 stripped
 GameObject:
@@ -12605,7 +12557,7 @@ MonoBehaviour:
     camera:
       camera: 0
   m_ProxyVolume: {fileID: 0}
-  m_BakedTexture: {fileID: 8900000, guid: 43030a95c971f409681db22dc36286b2, type: 3}
+  m_BakedTexture: {fileID: 8900000, guid: 8f8d28b54bdaf489c85e31684d5ca4f7, type: 3}
   m_CustomTexture: {fileID: 0}
   m_BakedRenderData:
     m_WorldToCameraRHS:
@@ -12687,33 +12639,33 @@ MonoBehaviour:
     m_Aspect: 0
   m_HasValidSHForNormalization: 1
   m_SHForNormalization:
-    sh[ 0]: 0.598382
-    sh[ 1]: -0.28441232
-    sh[ 2]: -0.051544916
-    sh[ 3]: 0.22918229
-    sh[ 4]: -0.08591206
-    sh[ 5]: 0.009391721
-    sh[ 6]: -0.029978273
-    sh[ 7]: 0.013121521
-    sh[ 8]: 0.06583561
-    sh[ 9]: 0.4308128
-    sh[10]: -0.20884642
-    sh[11]: -0.04023987
-    sh[12]: 0.16978854
-    sh[13]: -0.062476892
-    sh[14]: 0.0077380775
-    sh[15]: -0.022526085
-    sh[16]: 0.008920613
-    sh[17]: 0.047589753
-    sh[18]: 0.30793303
-    sh[19]: -0.15080735
-    sh[20]: -0.029341884
-    sh[21]: 0.13118748
-    sh[22]: -0.04450645
-    sh[23]: 0.0057047023
-    sh[24]: -0.01691859
-    sh[25]: 0.006892871
-    sh[26]: 0.03384972
+    sh[ 0]: 0.601062
+    sh[ 1]: -0.29247454
+    sh[ 2]: -0.07170989
+    sh[ 3]: 0.22996105
+    sh[ 4]: -0.082087606
+    sh[ 5]: 0.010409176
+    sh[ 6]: -0.028961532
+    sh[ 7]: 0.029975662
+    sh[ 8]: 0.06590992
+    sh[ 9]: 0.43272853
+    sh[10]: -0.21423338
+    sh[11]: -0.05251378
+    sh[12]: 0.16995737
+    sh[13]: -0.060013838
+    sh[14]: 0.008500408
+    sh[15]: -0.021954566
+    sh[16]: 0.019384092
+    sh[17]: 0.04774502
+    sh[18]: 0.30960983
+    sh[19]: -0.15419085
+    sh[20]: -0.03496606
+    sh[21]: 0.13048506
+    sh[22]: -0.043070916
+    sh[23]: 0.0058823903
+    sh[24]: -0.016770398
+    sh[25]: 0.011769007
+    sh[26]: 0.03423698
   m_SHValidForCapturePosition: {x: -23.149862, y: 0, z: 0.018008899}
   m_SHValidForSourcePosition: {x: -23.11, y: 1.1, z: -0.38}
   m_HDProbeVersion: 3
@@ -13529,15 +13481,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 1146579523226982, guid: 37c29098b8a8e624d88578e39db6c673,
-        type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 0}
-    - targetCorrespondingSourceObject: {fileID: 1221116173160528, guid: 37c29098b8a8e624d88578e39db6c673,
-        type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 0}
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 37c29098b8a8e624d88578e39db6c673, type: 3}
 --- !u!4 &980515211 stripped
 Transform:
@@ -14062,10 +14006,6 @@ PrefabInstance:
         type: 3}
       insertIndex: -1
       addedObject: {fileID: 1032849467}
-    - targetCorrespondingSourceObject: {fileID: 100000, guid: 91682bdc970d03c4e89080fc1640258e,
-        type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 0}
   m_SourcePrefab: {fileID: 100100000, guid: 91682bdc970d03c4e89080fc1640258e, type: 3}
 --- !u!1 &1032849466 stripped
 GameObject:
@@ -15150,9 +15090,17 @@ Camera:
   m_projectionMatrixMode: 1
   m_GateFitMode: 2
   m_FOVAxisMode: 0
+  m_Iso: 200
+  m_ShutterSpeed: 0.005
+  m_Aperture: 16
+  m_FocusDistance: 10
+  m_FocalLength: 50
+  m_BladeCount: 5
+  m_Curvature: {x: 2, y: 11}
+  m_BarrelClipping: 0.25
+  m_Anamorphism: 0
   m_SensorSize: {x: 36, y: 24}
   m_LensShift: {x: 0, y: 0}
-  m_FocalLength: 50
   m_NormalizedViewPortRect:
     serializedVersion: 2
     x: 0
@@ -16285,7 +16233,7 @@ MonoBehaviour:
     camera:
       camera: 0
   m_ProxyVolume: {fileID: 0}
-  m_BakedTexture: {fileID: 8900000, guid: 0df59f22ec85e4de8978d2ae0ad69a85, type: 3}
+  m_BakedTexture: {fileID: 8900000, guid: c7a3e5f7096bc4b3798e10f5fd08521a, type: 3}
   m_CustomTexture: {fileID: 0}
   m_BakedRenderData:
     m_WorldToCameraRHS:
@@ -16367,33 +16315,33 @@ MonoBehaviour:
     m_Aspect: 0
   m_HasValidSHForNormalization: 1
   m_SHForNormalization:
-    sh[ 0]: 434.91266
-    sh[ 1]: 243.45038
-    sh[ 2]: -273.0542
-    sh[ 3]: 106.67312
-    sh[ 4]: 31.176323
-    sh[ 5]: -70.8703
-    sh[ 6]: 8.16272
-    sh[ 7]: -37.038593
-    sh[ 8]: -11.265186
-    sh[ 9]: 399.36533
-    sh[10]: 242.26346
-    sh[11]: -241.66406
-    sh[12]: 95.009895
-    sh[13]: 27.563873
-    sh[14]: -65.269936
-    sh[15]: 5.84095
-    sh[16]: -32.36993
-    sh[17]: -13.517489
-    sh[18]: 469.5649
-    sh[19]: 322.80252
-    sh[20]: -255.44632
-    sh[21]: 95.1261
-    sh[22]: 27.335281
-    sh[23]: -73.26111
-    sh[24]: 2.4576683
-    sh[25]: -31.722038
-    sh[26]: -23.703995
+    sh[ 0]: 0.4176343
+    sh[ 1]: -0.12660275
+    sh[ 2]: 0.29517776
+    sh[ 3]: -0.18691437
+    sh[ 4]: 0.028072579
+    sh[ 5]: -0.03969653
+    sh[ 6]: 0.012257393
+    sh[ 7]: -0.0607383
+    sh[ 8]: 0.01072656
+    sh[ 9]: 0.29539436
+    sh[10]: -0.08582319
+    sh[11]: 0.20427366
+    sh[12]: -0.13133577
+    sh[13]: 0.019561224
+    sh[14]: -0.027859628
+    sh[15]: 0.00839079
+    sh[16]: -0.04192033
+    sh[17]: 0.007311368
+    sh[18]: 0.21014546
+    sh[19]: -0.056399673
+    sh[20]: 0.13193174
+    sh[21]: -0.08740198
+    sh[22]: 0.013327492
+    sh[23]: -0.019381296
+    sh[24]: 0.0050867135
+    sh[25]: -0.026013147
+    sh[26]: 0.003935475
   m_SHValidForCapturePosition: {x: 43.068104, y: 0.14858723, z: -12.966576}
   m_SHValidForSourcePosition: {x: 42.686424, y: 5.9429164, z: -16.117994}
   m_HDProbeVersion: 3
@@ -16920,11 +16868,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 100000, guid: 3babe611ab05baf4b86b8880e6047cd4,
-        type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 0}
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3babe611ab05baf4b86b8880e6047cd4, type: 3}
 --- !u!4 &1231272631 stripped
 Transform:
@@ -17059,11 +17003,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 100000, guid: 91682bdc970d03c4e89080fc1640258e,
-        type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 0}
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 91682bdc970d03c4e89080fc1640258e, type: 3}
 --- !u!4 &1246624897 stripped
 Transform:
@@ -17133,7 +17073,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400002, guid: c6453f8e1f814744d8b94e5a6d1f9942, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -14.148936
+      value: -14.148938
       objectReference: {fileID: 0}
     - target: {fileID: 400002, guid: c6453f8e1f814744d8b94e5a6d1f9942, type: 3}
       propertyPath: m_LocalPosition.y
@@ -17141,7 +17081,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400002, guid: c6453f8e1f814744d8b94e5a6d1f9942, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 4.3829885
+      value: 4.3829894
       objectReference: {fileID: 0}
     - target: {fileID: 400002, guid: c6453f8e1f814744d8b94e5a6d1f9942, type: 3}
       propertyPath: m_LocalRotation.w
@@ -17454,11 +17394,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 1847621966968312, guid: 1bc8ad5cf13d3c74ea34ae974a5eb0b2,
-        type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 0}
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1bc8ad5cf13d3c74ea34ae974a5eb0b2, type: 3}
 --- !u!4 &1262457713 stripped
 Transform:
@@ -17997,9 +17933,17 @@ Camera:
   m_projectionMatrixMode: 1
   m_GateFitMode: 2
   m_FOVAxisMode: 0
+  m_Iso: 200
+  m_ShutterSpeed: 0.005
+  m_Aperture: 16
+  m_FocusDistance: 10
+  m_FocalLength: 50
+  m_BladeCount: 5
+  m_Curvature: {x: 2, y: 11}
+  m_BarrelClipping: 0.25
+  m_Anamorphism: 0
   m_SensorSize: {x: 36, y: 24}
   m_LensShift: {x: 0, y: 0}
-  m_FocalLength: 50
   m_NormalizedViewPortRect:
     serializedVersion: 2
     x: 0
@@ -18104,11 +18048,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 100000, guid: 3babe611ab05baf4b86b8880e6047cd4,
-        type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 0}
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3babe611ab05baf4b86b8880e6047cd4, type: 3}
 --- !u!4 &1315173404 stripped
 Transform:
@@ -18644,11 +18584,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 1847621966968312, guid: 1bc8ad5cf13d3c74ea34ae974a5eb0b2,
-        type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 0}
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1bc8ad5cf13d3c74ea34ae974a5eb0b2, type: 3}
 --- !u!4 &1345983133 stripped
 Transform:
@@ -20199,7 +20135,7 @@ MonoBehaviour:
     camera:
       camera: 0
   m_ProxyVolume: {fileID: 0}
-  m_BakedTexture: {fileID: 8900000, guid: 6fe37d7d7345f40359ae4bcde16b32f0, type: 3}
+  m_BakedTexture: {fileID: 8900000, guid: 4cfa08d3c43084db3b24d52e15d71f89, type: 3}
   m_CustomTexture: {fileID: 0}
   m_BakedRenderData:
     m_WorldToCameraRHS:
@@ -20281,33 +20217,33 @@ MonoBehaviour:
     m_Aspect: 0
   m_HasValidSHForNormalization: 1
   m_SHForNormalization:
-    sh[ 0]: 723.41644
-    sh[ 1]: 236.88701
-    sh[ 2]: -404.5373
-    sh[ 3]: 65.68545
-    sh[ 4]: 26.348475
-    sh[ 5]: -30.124557
-    sh[ 6]: 16.836979
-    sh[ 7]: 12.59432
-    sh[ 8]: -2.2960436
-    sh[ 9]: 630.876
-    sh[10]: 244.67036
-    sh[11]: -337.3696
-    sh[12]: 55.43333
-    sh[13]: 21.596601
-    sh[14]: -29.382336
-    sh[15]: 12.568817
-    sh[16]: 9.857569
-    sh[17]: -5.177493
-    sh[18]: 676.46674
-    sh[19]: 322.5779
-    sh[20]: -312.9863
-    sh[21]: 50.65016
-    sh[22]: 18.582855
-    sh[23]: -29.55077
-    sh[24]: 8.208598
-    sh[25]: 9.358628
-    sh[26]: -13.284144
+    sh[ 0]: 0.030457532
+    sh[ 1]: 0.0068537286
+    sh[ 2]: 0.00493219
+    sh[ 3]: -0.0035689203
+    sh[ 4]: -0.0019558845
+    sh[ 5]: -0.00028162485
+    sh[ 6]: -0.0016268913
+    sh[ 7]: 0.0025534239
+    sh[ 8]: 0.0057814964
+    sh[ 9]: 0.027950514
+    sh[10]: 0.0082806945
+    sh[11]: 0.0049456367
+    sh[12]: -0.0021416715
+    sh[13]: -0.0025276132
+    sh[14]: 0.00008501793
+    sh[15]: -0.0016325918
+    sh[16]: 0.0023381684
+    sh[17]: 0.0042904634
+    sh[18]: 0.029599683
+    sh[19]: 0.013250582
+    sh[20]: 0.0048521827
+    sh[21]: -0.004977842
+    sh[22]: -0.0037733102
+    sh[23]: 0.00048446553
+    sh[24]: -0.0018745837
+    sh[25]: 0.0011327782
+    sh[26]: 0.0022414823
   m_SHValidForCapturePosition: {x: 10.27815, y: -0.20662689, z: -2.7538183}
   m_SHValidForSourcePosition: {x: 10.27815, y: 5.963373, z: -2.0738182}
   m_HDProbeVersion: 3
@@ -20645,11 +20581,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 1847621966968312, guid: 1bc8ad5cf13d3c74ea34ae974a5eb0b2,
-        type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 0}
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1bc8ad5cf13d3c74ea34ae974a5eb0b2, type: 3}
 --- !u!4 &1557127735 stripped
 Transform:
@@ -21872,11 +21804,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 1847621966968312, guid: 1bc8ad5cf13d3c74ea34ae974a5eb0b2,
-        type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 0}
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1bc8ad5cf13d3c74ea34ae974a5eb0b2, type: 3}
 --- !u!4 &1716284354 stripped
 Transform:
@@ -22569,7 +22497,7 @@ MonoBehaviour:
     camera:
       camera: 0
   m_ProxyVolume: {fileID: 0}
-  m_BakedTexture: {fileID: 8900000, guid: 63e7b33bea8e045f3b9f1a10f1d488ab, type: 3}
+  m_BakedTexture: {fileID: 8900000, guid: 336881bf666a44a8dadfc8167fa47763, type: 3}
   m_CustomTexture: {fileID: 0}
   m_BakedRenderData:
     m_WorldToCameraRHS:
@@ -22651,33 +22579,33 @@ MonoBehaviour:
     m_Aspect: 0
   m_HasValidSHForNormalization: 1
   m_SHForNormalization:
-    sh[ 0]: 11.454044
-    sh[ 1]: -7.7518306
-    sh[ 2]: -2.0226557
-    sh[ 3]: 1.5381045
-    sh[ 4]: 0.04563439
-    sh[ 5]: 0.32761884
-    sh[ 6]: -0.2981745
-    sh[ 7]: -1.3813626
-    sh[ 8]: -0.1956449
-    sh[ 9]: 6.5859113
-    sh[10]: -4.693116
-    sh[11]: -1.1814554
-    sh[12]: 0.66984487
-    sh[13]: 0.07177148
-    sh[14]: 0.2466415
-    sh[15]: -0.18032232
-    sh[16]: -0.6854403
-    sh[17]: -0.18329619
-    sh[18]: 4.3250885
-    sh[19]: -2.9689865
-    sh[20]: -0.76779014
-    sh[21]: 0.45258236
-    sh[22]: 0.07045125
-    sh[23]: 0.1728587
-    sh[24]: -0.10389069
-    sh[25]: -0.53212667
-    sh[26]: -0.057141885
+    sh[ 0]: 1.1746174
+    sh[ 1]: -0.42394352
+    sh[ 2]: -0.0086152395
+    sh[ 3]: -0.47496325
+    sh[ 4]: -0.029490571
+    sh[ 5]: -0.03893856
+    sh[ 6]: -0.026158575
+    sh[ 7]: 0.057389397
+    sh[ 8]: -0.016519548
+    sh[ 9]: 0.7280313
+    sh[10]: -0.28927663
+    sh[11]: -0.004300661
+    sh[12]: -0.2770012
+    sh[13]: -0.00550436
+    sh[14]: -0.020320268
+    sh[15]: -0.0127571
+    sh[16]: 0.032066192
+    sh[17]: -0.010793515
+    sh[18]: 0.44254
+    sh[19]: -0.21634448
+    sh[20]: 0.019197442
+    sh[21]: -0.13102712
+    sh[22]: 0.012118083
+    sh[23]: -0.01657305
+    sh[24]: -0.0028759309
+    sh[25]: 0.0102355145
+    sh[26]: -0.007571402
   m_SHValidForCapturePosition: {x: -2.8116355, y: 3.3971791, z: 1.4949999}
   m_SHValidForSourcePosition: {x: -7.2209997, y: 3.3971791, z: 1.4949999}
   m_HDProbeVersion: 3
@@ -23943,11 +23871,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 1847621966968312, guid: 1bc8ad5cf13d3c74ea34ae974a5eb0b2,
-        type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 0}
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1bc8ad5cf13d3c74ea34ae974a5eb0b2, type: 3}
 --- !u!4 &1948399846 stripped
 Transform:
@@ -24244,11 +24168,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 100000, guid: f1dac1e80cb61704eaef7345d7f7f135,
-        type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 0}
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f1dac1e80cb61704eaef7345d7f7f135, type: 3}
 --- !u!4 &2062055511 stripped
 Transform:
@@ -25761,7 +25681,7 @@ MonoBehaviour:
     camera:
       camera: 0
   m_ProxyVolume: {fileID: 0}
-  m_BakedTexture: {fileID: 8900000, guid: 38e2880cd025d4fb2b1082bbd738167e, type: 3}
+  m_BakedTexture: {fileID: 8900000, guid: 64e34b91cd5fe4bbb8d36725de9a66b5, type: 3}
   m_CustomTexture: {fileID: 0}
   m_BakedRenderData:
     m_WorldToCameraRHS:
@@ -25843,33 +25763,33 @@ MonoBehaviour:
     m_Aspect: 0
   m_HasValidSHForNormalization: 1
   m_SHForNormalization:
-    sh[ 0]: 22.309519
-    sh[ 1]: 1.0290873
-    sh[ 2]: -23.077326
-    sh[ 3]: 0.8439501
-    sh[ 4]: -0.20871261
-    sh[ 5]: -1.6199435
-    sh[ 6]: 1.9676646
-    sh[ 7]: -0.27506256
-    sh[ 8]: -0.33764914
-    sh[ 9]: 18.594744
-    sh[10]: 1.1807673
-    sh[11]: -19.46796
-    sh[12]: 0.65200734
-    sh[13]: -0.1533969
-    sh[14]: -1.4071653
-    sh[15]: 1.6712732
-    sh[16]: -0.22327258
-    sh[17]: -0.25304145
-    sh[18]: 17.557499
-    sh[19]: 1.6366601
-    sh[20]: -18.804222
-    sh[21]: 0.5254512
-    sh[22]: -0.11309467
-    sh[23]: -1.3911903
-    sh[24]: 1.635855
-    sh[25]: -0.20085455
-    sh[26]: -0.18449864
+    sh[ 0]: 0.073687986
+    sh[ 1]: -0.003796364
+    sh[ 2]: 0.0529447
+    sh[ 3]: 0.04557018
+    sh[ 4]: -0.0031051156
+    sh[ 5]: -0.0037022736
+    sh[ 6]: 0.0019625397
+    sh[ 7]: 0.015576259
+    sh[ 8]: 0.0030191047
+    sh[ 9]: 0.051559113
+    sh[10]: -0.0036376235
+    sh[11]: 0.037285592
+    sh[12]: 0.03232547
+    sh[13]: -0.0022569415
+    sh[14]: -0.0029660047
+    sh[15]: 0.0014109786
+    sh[16]: 0.0112205725
+    sh[17]: 0.0021587368
+    sh[18]: 0.036577918
+    sh[19]: -0.0028889682
+    sh[20]: 0.026425038
+    sh[21]: 0.022731038
+    sh[22]: -0.0016759243
+    sh[23]: -0.0023057638
+    sh[24]: 0.0010213836
+    sh[25]: 0.008013278
+    sh[26]: 0.0015105931
   m_SHValidForCapturePosition: {x: -45.35, y: 0, z: -15.98}
   m_SHValidForSourcePosition: {x: -44.949997, y: 1.1, z: -15.78}
   m_HDProbeVersion: 3
@@ -26038,16 +25958,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a83d2f7ae04ab6f4f99b0d85377be998, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  asset: {fileID: 11400000, guid: 7a2d418ba3e8d44cdab70ce1004357e0, type: 2}
-  cellSharedDataAsset: {fileID: 4900000, guid: e628006812c8a435fbfff252eb7cd1b2, type: 3}
-  cellSupportDataAsset: {fileID: 4900000, guid: 0b8f795f023044bc387e4a3d31ae3fb9,
+  asset: {fileID: 11400000, guid: 5e5ab34a40b184d4ebc549c18f58d67a, type: 2}
+  cellSharedDataAsset: {fileID: 4900000, guid: bd20ecabe63734745a67a20939993304, type: 3}
+  cellSupportDataAsset: {fileID: 4900000, guid: 9e9e2f0681bc446899a32e8e6f25bd85,
     type: 3}
   serializedScenarios:
   - scenario: Default
     data:
       sceneHash: -2135780667
-      cellDataAsset: {fileID: 4900000, guid: f317d5b830e93453ca64c2d21c5f6f70, type: 3}
-      cellOptionalDataAsset: {fileID: 4900000, guid: 899633663a9c04df5986d7ec958c8dcf,
+      cellDataAsset: {fileID: 4900000, guid: 5df3156bda0fc41a282bba3c29b322a5, type: 3}
+      cellOptionalDataAsset: {fileID: 4900000, guid: 92e4e715b69d543cd82c3b9fae12688b,
         type: 3}
 --- !u!4 &2135634653
 Transform:
