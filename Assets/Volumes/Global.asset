@@ -114,7 +114,7 @@ MonoBehaviour:
     m_OverrideState: 0
     m_Value: 0.1
   occlusionOnlyReflectionNormalization:
-    m_OverrideState: 1
+    m_OverrideState: 0
     m_Value: 1
 --- !u!114 &2744217730209175204
 MonoBehaviour:

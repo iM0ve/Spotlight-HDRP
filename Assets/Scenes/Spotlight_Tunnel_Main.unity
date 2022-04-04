@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0, g: 0, b: 0, a: 1}
+  m_IndirectSpecularColor: {r: 4682.7925, g: 3487.1309, b: 3758.0186, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -1745,7 +1745,7 @@ MonoBehaviour:
     camera:
       camera: 0
   m_ProxyVolume: {fileID: 0}
-  m_BakedTexture: {fileID: 8900000, guid: 1622d69e1dddd41868fd29f7f4934bca, type: 3}
+  m_BakedTexture: {fileID: 8900000, guid: a1f83a26f8a6d4ea2b53a60361db1b59, type: 3}
   m_CustomTexture: {fileID: 0}
   m_BakedRenderData:
     m_WorldToCameraRHS:
@@ -2724,7 +2724,7 @@ MonoBehaviour:
     camera:
       camera: 0
   m_ProxyVolume: {fileID: 0}
-  m_BakedTexture: {fileID: 8900000, guid: 8f09dca2438044a12835b6466afa7524, type: 3}
+  m_BakedTexture: {fileID: 8900000, guid: 96e25cb3816d745f38344074b99bb6c8, type: 3}
   m_CustomTexture: {fileID: 0}
   m_BakedRenderData:
     m_WorldToCameraRHS:
@@ -3973,8 +3973,8 @@ MonoBehaviour:
   m_MaxDepthBias: 0.001
   m_ShadowResolution:
     m_Override: 512
-    m_UseOverride: 1
-    m_Level: 0
+    m_UseOverride: 0
+    m_Level: 2
   m_ShadowDimmer: 1
   m_VolumetricShadowDimmer: 1
   m_ShadowFadeDistance: 10000
@@ -4034,9 +4034,9 @@ Light:
   m_Type: 0
   m_Shape: 0
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 1925.995
+  m_Intensity: 2147.3157
   m_Range: 10
-  m_SpotAngle: 160
+  m_SpotAngle: 150
   m_InnerSpotAngle: 1
   m_CookieSize: 10
   m_Shadows:
@@ -4689,7 +4689,7 @@ MonoBehaviour:
     camera:
       camera: 0
   m_ProxyVolume: {fileID: 0}
-  m_BakedTexture: {fileID: 8900000, guid: e795c4488e1bc45a2ba48b2564d88625, type: 3}
+  m_BakedTexture: {fileID: 8900000, guid: 0adad0c9ccba54368b6d67d9e7553058, type: 3}
   m_CustomTexture: {fileID: 0}
   m_BakedRenderData:
     m_WorldToCameraRHS:
@@ -5567,6 +5567,11 @@ PrefabInstance:
       propertyPath: m_Intensity
       value: 3000
       objectReference: {fileID: 0}
+    - target: {fileID: 3046010058899633065, guid: e3a1ffdd2313b454c917be2c18d6d941,
+        type: 3}
+      propertyPath: m_ShadowResolution.m_Level
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3046010058899633066, guid: e3a1ffdd2313b454c917be2c18d6d941,
         type: 3}
       propertyPath: m_Intensity
@@ -6087,7 +6092,7 @@ MonoBehaviour:
     camera:
       camera: 0
   m_ProxyVolume: {fileID: 0}
-  m_BakedTexture: {fileID: 8900000, guid: d652ea9335c3a4b02958c7c3e67d6484, type: 3}
+  m_BakedTexture: {fileID: 8900000, guid: e777ad114c8d043c99d82b5476ea860c, type: 3}
   m_CustomTexture: {fileID: 0}
   m_BakedRenderData:
     m_WorldToCameraRHS:
@@ -6765,7 +6770,7 @@ MonoBehaviour:
   m_ShadowResolution:
     m_Override: 512
     m_UseOverride: 0
-    m_Level: 1
+    m_Level: 2
   m_ShadowDimmer: 1
   m_VolumetricShadowDimmer: 1
   m_ShadowFadeDistance: 10000
@@ -6778,7 +6783,7 @@ MonoBehaviour:
   m_PenumbraTint: 0
   m_NormalBias: 0.75
   m_SlopeBias: 0.5
-  m_ShadowUpdateMode: 0
+  m_ShadowUpdateMode: 1
   m_AlwaysDrawDynamicShadows: 0
   m_UpdateShadowOnLightMovement: 0
   m_CachedShadowTranslationThreshold: 0.01
@@ -6825,9 +6830,9 @@ Light:
   m_Type: 0
   m_Shape: 0
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 577.7985
+  m_Intensity: 644.1947
   m_Range: 10
-  m_SpotAngle: 160
+  m_SpotAngle: 150
   m_InnerSpotAngle: 1
   m_CookieSize: 10
   m_Shadows:
@@ -6872,7 +6877,7 @@ Light:
   m_UseColorTemperature: 1
   m_BoundingSphereOverride: {x: 0, y: 0, z: 0, w: 0}
   m_UseBoundingSphereOverride: 0
-  m_UseViewFrustumForShadowCasterCull: 1
+  m_UseViewFrustumForShadowCasterCull: 0
   m_ShadowRadius: 0.4
   m_ShadowAngle: 0
 --- !u!1001 &532594213
@@ -11946,7 +11951,7 @@ MonoBehaviour:
     camera:
       camera: 0
   m_ProxyVolume: {fileID: 0}
-  m_BakedTexture: {fileID: 8900000, guid: 543c36097ae5940edacadccbebdaf322, type: 3}
+  m_BakedTexture: {fileID: 8900000, guid: a2dc340d16c494a23914e38371a4f419, type: 3}
   m_CustomTexture: {fileID: 0}
   m_BakedRenderData:
     m_WorldToCameraRHS:
@@ -12656,7 +12661,7 @@ MonoBehaviour:
     camera:
       camera: 0
   m_ProxyVolume: {fileID: 0}
-  m_BakedTexture: {fileID: 8900000, guid: 5f199fe013ec84774aa1461c4e2113a5, type: 3}
+  m_BakedTexture: {fileID: 8900000, guid: c5902d5e161534fdcb81f3de842cd527, type: 3}
   m_CustomTexture: {fileID: 0}
   m_BakedRenderData:
     m_WorldToCameraRHS:
@@ -16000,8 +16005,8 @@ MonoBehaviour:
   m_MaxDepthBias: 0.001
   m_ShadowResolution:
     m_Override: 512
-    m_UseOverride: 1
-    m_Level: 0
+    m_UseOverride: 0
+    m_Level: 2
   m_ShadowDimmer: 1
   m_VolumetricShadowDimmer: 1
   m_ShadowFadeDistance: 10000
@@ -16061,9 +16066,9 @@ Light:
   m_Type: 0
   m_Shape: 0
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 577.7985
+  m_Intensity: 644.1947
   m_Range: 10
-  m_SpotAngle: 160
+  m_SpotAngle: 150
   m_InnerSpotAngle: 1
   m_CookieSize: 10
   m_Shadows:
@@ -16332,7 +16337,7 @@ MonoBehaviour:
     camera:
       camera: 0
   m_ProxyVolume: {fileID: 0}
-  m_BakedTexture: {fileID: 8900000, guid: 8678d79dc1f794952af7caa3eab1878f, type: 3}
+  m_BakedTexture: {fileID: 8900000, guid: 4313c33006dc241d1947c13697039e9f, type: 3}
   m_CustomTexture: {fileID: 0}
   m_BakedRenderData:
     m_WorldToCameraRHS:
@@ -17172,7 +17177,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400002, guid: c6453f8e1f814744d8b94e5a6d1f9942, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -14.148952
+      value: -14.148959
       objectReference: {fileID: 0}
     - target: {fileID: 400002, guid: c6453f8e1f814744d8b94e5a6d1f9942, type: 3}
       propertyPath: m_LocalPosition.y
@@ -17180,7 +17185,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400002, guid: c6453f8e1f814744d8b94e5a6d1f9942, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 4.382997
+      value: 4.3830028
       objectReference: {fileID: 0}
     - target: {fileID: 400002, guid: c6453f8e1f814744d8b94e5a6d1f9942, type: 3}
       propertyPath: m_LocalRotation.w
@@ -20234,7 +20239,7 @@ MonoBehaviour:
     camera:
       camera: 0
   m_ProxyVolume: {fileID: 0}
-  m_BakedTexture: {fileID: 8900000, guid: 0bb0d04fe7c784c67beac338464face7, type: 3}
+  m_BakedTexture: {fileID: 8900000, guid: f24cd8859c0a347f692c5372caa10371, type: 3}
   m_CustomTexture: {fileID: 0}
   m_BakedRenderData:
     m_WorldToCameraRHS:
@@ -22281,7 +22286,7 @@ Light:
   m_InnerSpotAngle: 21.80208
   m_CookieSize: 10
   m_Shadows:
-    m_Type: 1
+    m_Type: 0
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -22416,7 +22421,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1770231277}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -7.2209997, y: 3.3971791, z: 1.4949999}
+  m_LocalPosition: {x: -8.502472, y: 3.3971791, z: 1.1638956}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -22453,7 +22458,7 @@ MonoBehaviour:
       rangeCompressionFactor: 1
     influence:
       m_Shape: 0
-      m_BoxSize: {x: 19.12, y: 3.1196413, z: 10}
+      m_BoxSize: {x: 15.042637, y: 3.1196413, z: 8.168932}
       m_BoxBlendDistancePositive: {x: 0, y: 0, z: 0}
       m_BoxBlendDistanceNegative: {x: 0, y: 0.7, z: 0}
       m_BoxBlendNormalDistancePositive: {x: 0, y: 0, z: 0}
@@ -22611,7 +22616,7 @@ MonoBehaviour:
     camera:
       camera: 0
   m_ProxyVolume: {fileID: 0}
-  m_BakedTexture: {fileID: 8900000, guid: e52dbf03d3de5430cb43d7ae8c0146f2, type: 3}
+  m_BakedTexture: {fileID: 8900000, guid: 11510f7e1873e4a799e5be86d2a9470c, type: 3}
   m_CustomTexture: {fileID: 0}
   m_BakedRenderData:
     m_WorldToCameraRHS:
@@ -22720,8 +22725,8 @@ MonoBehaviour:
     sh[24]: 0
     sh[25]: 0
     sh[26]: 0
-  m_SHValidForCapturePosition: {x: -2.8116355, y: 3.3971791, z: 1.4949999}
-  m_SHValidForSourcePosition: {x: -7.2209997, y: 3.3971791, z: 1.4949999}
+  m_SHValidForCapturePosition: {x: -4.0931077, y: 3.3971791, z: 1.1638956}
+  m_SHValidForSourcePosition: {x: -8.502472, y: 3.3971791, z: 1.1638956}
   m_HDProbeVersion: 3
   m_ObsoleteInfiniteProjection: 1
   m_ObsoleteInfluenceVolume:
@@ -22841,7 +22846,7 @@ ReflectionProbe:
   m_TimeSlicingMode: 0
   m_Resolution: 128
   m_UpdateFrequency: 0
-  m_BoxSize: {x: 19.12, y: 3.1196413, z: 10}
+  m_BoxSize: {x: 15.042637, y: 3.1196413, z: 8.168932}
   m_BoxOffset: {x: 0, y: 0, z: 0}
   m_NearClip: 0.3
   m_FarClip: 1000
@@ -24833,7 +24838,7 @@ MonoBehaviour:
   m_PenumbraTint: 0
   m_NormalBias: 0.75
   m_SlopeBias: 0.5
-  m_ShadowUpdateMode: 0
+  m_ShadowUpdateMode: 1
   m_AlwaysDrawDynamicShadows: 0
   m_UpdateShadowOnLightMovement: 0
   m_CachedShadowTranslationThreshold: 0.01
@@ -24927,7 +24932,7 @@ Light:
   m_UseColorTemperature: 1
   m_BoundingSphereOverride: {x: 0, y: 0, z: 0, w: 0}
   m_UseBoundingSphereOverride: 0
-  m_UseViewFrustumForShadowCasterCull: 1
+  m_UseViewFrustumForShadowCasterCull: 0
   m_ShadowRadius: 0
   m_ShadowAngle: 0
 --- !u!1 &2101389599
@@ -25654,7 +25659,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2126989453}
   m_LocalRotation: {x: -0, y: -0.7071068, z: -0, w: 0.7071068}
-  m_LocalPosition: {x: -44.949997, y: 1.1, z: -15.78}
+  m_LocalPosition: {x: -45.338833, y: 1.0999999, z: -16.918665}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -25691,9 +25696,9 @@ MonoBehaviour:
       rangeCompressionFactor: 1
     influence:
       m_Shape: 0
-      m_BoxSize: {x: 22.86, y: 11.23, z: 16.3}
-      m_BoxBlendDistancePositive: {x: 2, y: 2, z: 2}
-      m_BoxBlendDistanceNegative: {x: 2, y: 2, z: 2}
+      m_BoxSize: {x: 18.254063, y: 11.23, z: 12.6772}
+      m_BoxBlendDistancePositive: {x: 0, y: 0, z: 0}
+      m_BoxBlendDistanceNegative: {x: 0, y: 0, z: 0}
       m_BoxBlendNormalDistancePositive: {x: 0, y: 0, z: 0}
       m_BoxBlendNormalDistanceNegative: {x: 0, y: 0, z: 0}
       m_BoxSideFadePositive: {x: 1, y: 1, z: 1}
@@ -25703,7 +25708,7 @@ MonoBehaviour:
       m_SphereBlendNormalDistance: 0
       m_EditorAdvancedModeBlendDistancePositive: {x: 0, y: 0, z: 0}
       m_EditorAdvancedModeBlendDistanceNegative: {x: 0, y: 0, z: 0}
-      m_EditorSimplifiedModeBlendDistance: 2
+      m_EditorSimplifiedModeBlendDistance: 0
       m_EditorAdvancedModeBlendNormalDistancePositive: {x: 0, y: 0, z: 0}
       m_EditorAdvancedModeBlendNormalDistanceNegative: {x: 0, y: 0, z: 0}
       m_EditorSimplifiedModeBlendNormalDistance: 0
@@ -25722,7 +25727,7 @@ MonoBehaviour:
       m_ObsoleteBoxInfiniteProjection: 0
     proxySettings:
       useInfluenceVolumeAsProxyVolume: 0
-      capturePositionProxySpace: {x: -0.20000012, y: -1.1, z: 0.40000185}
+      capturePositionProxySpace: {x: 3.4621677, y: -0.312172, z: -2.4532125}
       captureRotationProxySpace: {x: 0, y: 0, z: 0, w: 1}
       mirrorPositionProxySpace: {x: 0, y: 0, z: 0}
       mirrorRotationProxySpace: {x: 0, y: 0, z: 0, w: 0}
@@ -25849,7 +25854,7 @@ MonoBehaviour:
     camera:
       camera: 0
   m_ProxyVolume: {fileID: 0}
-  m_BakedTexture: {fileID: 8900000, guid: 40679777de8834e3fb96ec3a4d4b9f23, type: 3}
+  m_BakedTexture: {fileID: 8900000, guid: 2e38add14bdc04e9ea6aab0ccdfbb08e, type: 3}
   m_CustomTexture: {fileID: 0}
   m_BakedRenderData:
     m_WorldToCameraRHS:
@@ -25958,8 +25963,8 @@ MonoBehaviour:
     sh[24]: 0
     sh[25]: 0
     sh[26]: 0
-  m_SHValidForCapturePosition: {x: -45.35, y: 0, z: -15.98}
-  m_SHValidForSourcePosition: {x: -44.949997, y: 1.1, z: -15.78}
+  m_SHValidForCapturePosition: {x: -42.88562, y: 0.7878279, z: -13.456496}
+  m_SHValidForSourcePosition: {x: -45.338833, y: 1.0999999, z: -16.918665}
   m_HDProbeVersion: 3
   m_ObsoleteInfiniteProjection: 1
   m_ObsoleteInfluenceVolume:
@@ -26079,7 +26084,7 @@ ReflectionProbe:
   m_TimeSlicingMode: 0
   m_Resolution: 256
   m_UpdateFrequency: 0
-  m_BoxSize: {x: 22.86, y: 11.23, z: 16.3}
+  m_BoxSize: {x: 18.254063, y: 11.23, z: 12.6772}
   m_BoxOffset: {x: 0, y: 0, z: 0}
   m_NearClip: 0.3
   m_FarClip: 1000
@@ -26126,9 +26131,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a83d2f7ae04ab6f4f99b0d85377be998, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  asset: {fileID: 11400000, guid: b1dc7f9185f834845be7e8bcda3212ab, type: 2}
-  cellSharedDataAsset: {fileID: 4900000, guid: 6762193248e204f9088682ff8e4c5ab6, type: 3}
-  cellSupportDataAsset: {fileID: 4900000, guid: 32229d3b5cf554782aa681ecab885367,
+  asset: {fileID: 11400000, guid: 9696b4a4049014be983f1bf029086ef9, type: 2}
+  cellSharedDataAsset: {fileID: 4900000, guid: 8cebef7635faf45ee803a68927f73030, type: 3}
+  cellSupportDataAsset: {fileID: 4900000, guid: e6b0967ed15a249838020f798deac8a3,
     type: 3}
   serializedScenarios: []
 --- !u!4 &2135634653
@@ -26213,6 +26218,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Shadows.m_Type
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3046010058899633066, guid: e3a1ffdd2313b454c917be2c18d6d941,
+        type: 3}
+      propertyPath: m_UseViewFrustumForShadowCasterCull
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3046010058899633079, guid: e3a1ffdd2313b454c917be2c18d6d941,
         type: 3}
